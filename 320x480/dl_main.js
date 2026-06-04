@@ -4,7 +4,7 @@ this.addEventListener("DOMContentLoaded", preloadImages, true);
 
 var loadedImages = 0;
 //ACA HAY QUE CARGAR LAS IMAGENES QUE SE USEN
-var imageArray = new Array("images/arbitro.png");
+var imageArray = new Array("images/bg.jpg");
 
 function preloadImages(e) {
     for (var i = 0; i < imageArray.length; i++) {
