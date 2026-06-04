@@ -7,8 +7,8 @@
 }
 
 #loader-container {
-    width: 1920px;
-    height: 200px;
+    width: 800px;
+    height: 600px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -34,8 +34,8 @@ body {
 
 .banner {
     font-family: Arial, Helvetica, sans-serif;
-    width: 1920px;
-    height: 200px;
+    width: 800px;
+    height: 600px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -68,8 +68,8 @@ sup {
 }
 
 #clickTag, #clicTr {
-    width: 1920px;
-    height: 200px;
+    width: 800px;
+    height: 600px;
     cursor: pointer;
     box-sizing: border-box;
     top: -1px;
@@ -125,15 +125,15 @@ img{
 }
 
 #character, #manshadow{
-    width: 1920px;
-    height: 200px;
+    width: 800px;
+    height: 600px;
     left: 0px;
     top: 0px;
 }
 
 #bg, #overlay1, #overlay, .bgblue{
-    width: 1920px;
-    height: 200px;
+    width: 800px;
+    height: 600px;
     left: 0px;
     top: 0px;
     background-color: #165ED3;
@@ -141,7 +141,7 @@ img{
 
 
 #logo{
-    width: 920px;
+    width: 800px;
     left: 0px;
     top: 0px;
 }
@@ -150,15 +150,15 @@ img{
 
 
 #wrapText{
-    width: 344px;
-    left: 616px;
-    top: 36px;
+    width: 421px;
+    left: 184px;
+    top: 46px;
 }
 
 #disclaimer{
-    width: 920px;
-    height: 200px;
-    left: 500px;
+    width: 800px;
+    height: 600px;
+    left: 0px;
     top: 0px;
 }
 
@@ -166,38 +166,38 @@ img{
 
 
 #wrapbg{
-  width:1920px;
-  height:200px;
+  width:800px;
+  height:600px;
   left: 0px;
   top: 0px;
 }
 
 #bg{
-  width:1920px;
-  height:200px;
-  
+  width:800px;
+  height:671px;
+  background:url("images/bg.jpg") center/cover no-repeat;
 }
 
 #arbitro{
-  width:1920px;
-  height:200px;
-  left: 0px;
-  top: 0px;
-}
-
-#character-1, #endFrame{
-  width:1920px;
-  height:200px;
+  width:800px;
+  height:671px;
   left: 0px;
   top: 0px;
 }
 
 #tribuna{
-  width:1920px;
-  height:200px;
+  width:600px;
+  height:503px;
+  left: 50px;
+  top: 0px;
+  filter: blur(3px);
+}
+
+#character-1, #endFrame{
+  width:800px;
+  height:600px;
   left: 0px;
   top: 0px;
-  filter: blur(2px);
 }
 
 #confetti-wrap{
@@ -205,8 +205,7 @@ img{
   inset:0;
   overflow:hidden;
   pointer-events:none;
-  perspective:1920px;
-  left: 500px;
+  perspective:800px;
 }
 
 .confetti{
@@ -233,29 +232,4 @@ img{
   width:8px;
   height:8px;
   border-radius:50%;
-}
-
-
-[id*="txt-1-"], [id*="txt-2-"]{
-  width: 800px;
-  top: -10px;
-}
-
-#sertal, #roem{
-    width: 920px;
-    top: -45px;
-    left: 500px;
-}
-
-#area{
-    width: 920px;
-    height: 200px;
-    top: 0px;
-    left: 500px;
-    background-color: #165ED3;
-    opacity: 0.5;  
-}
-
-[id*="txt-"]{
-    left: 500px;
 }
